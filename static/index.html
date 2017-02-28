@@ -4,25 +4,25 @@
        <meta charset="utf-8">
        <title>Titre de la page</title>
        <link rel="stylesheet" href="./css/style.css">
-       <link rel="stylesheet" href="static/external/bootstrap/dist/css/bootstrap.min.css">
+       <link rel="stylesheet" href="./external/bootstrap/dist/css/bootstrap.min.css">
    </head>
    <body>
-       <div class="flex-container">
+       <div class="container">
+           <header>
+               <h1>SKYLINED</h1>
+               <nav>
+                   <ul>
+                       <li>Homepage</li>
+                       <li>Three Column</li>
+                       <li>two Column #1</li>
+                       <li>two Column #2</li>
+                       <li>one Column</li>
+                   </ul>
+               </nav>
+               <img src="./images/pics01.jpg" alt="skyscrapers">
+           </header>
            <div class="row">
-               <div class="col-xs-12">
-                   <header>
-                       <h1>SKYLINED</h1>
-                       <nav>
-                           <ul>
-                               <li>Homepage</li>
-                               <li>Three Column</li>
-                               <li>two Column #1</li>
-                               <li>two Column #2</li>
-                               <li>one Column</li>
-                           </ul>
-                       </nav>
-                       <img src="static/images/pics01.jpg" alt="skyscrapers">
-                   </header>
+               <div class="col-xs-12" "col-sm-3">
                    <section>
                        <article>
                            <h3>Maecenas luctus lectus</h3>
@@ -49,6 +49,10 @@
                            <button>More</button>
                        </article>
                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12" "col-sm-4">
                    <section>
                        <article>
                            <img src="" alt="">
@@ -66,6 +70,10 @@
                            <p>Donec nonummy magna quis risus. Quisque eleifend. Aliquam lacinia metus ut elit. Suspendisse iaculis mauris nec lorem.</p>
                        </article>
                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12" "col-sm-8">
                    <main>
                         <section>
                            <h2>Integer gravida nibh quis urna</h2>
@@ -75,7 +83,10 @@
                            <button>Read Full Article</button>
                        </section>
                    </main>
-                    
+               </div>
+           </div>
+            <div class="row">
+                <div class="col-xs-6">
                         <aside id="sidebar1">
                             <section>
                                 <h3>sidebar 1</h3>
@@ -97,6 +108,8 @@
                                 </article>
                             </section>
                         </aside>
+                </div>
+                <div class="col-xs-6">
                         <aside id="sidebar2">
                             <h3>sidebar 2</h3>
                             <ul>
@@ -116,7 +129,8 @@
                                 <li>Maecenas luctus lectus</li>
                             </ul>
                         </aside>
-
+                </div>
+            </div>
                    <section>
                        <article>
                             <h3>Maecenas luctus lectus</h3>
