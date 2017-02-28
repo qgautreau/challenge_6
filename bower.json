@@ -1,0 +1,22 @@
+{
+  "name": "challenge_6",
+  "homepage": "https://github.com/codincamp/challenge_6",
+  "authors": [
+    "Quentin Gautreau <qgautreau@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/external/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}
