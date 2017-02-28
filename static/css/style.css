@@ -3,3 +3,18 @@ header{
     /*background-color: red;*/
     /*background-size: cover;*/
 }
+
+#photosarticle img {
+    display: inline-block;
+    width: 28%;
+    margin: 0.2em;
+    }
+
+button {
+    background-color: #ff3d00;
+    border-radius: 20%;
+}
+
+h1 {
+    font-size: 4em;
+}
