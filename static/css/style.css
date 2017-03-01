@@ -4,11 +4,12 @@
 body {
     background-image: url("../images/fond.png");
 }
-
+/*Header*/
 header{
     background-image: url("../images/header.png");
     background-size: cover;
     text-align: center;
+    padding-bottom: 2em;
 }
 
 header img {
@@ -18,6 +19,9 @@ header img {
 }
 
 nav ul {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1em;
     background-color: #67b9eb;
 }
 
@@ -34,8 +38,25 @@ nav ul li {
     margin: 0.2em;
     }
 
+/*Sidebars*/
+#sidebar1 article {
+    border-bottom: 1px solid lightgrey;
+    margin: 0.5em 0;
+    padding: 0.5em 0;
+}
+
+#sidebar1 article:last-child {
+    border: 0;
+}
 #sidebar2 ul li {
     list-style: url("../images/fleche.png");
+    border-bottom: 1px solid lightgrey;
+    margin: 0.5em 0;
+    padding: 0.5em 0;
+}
+
+#sidebar2 ul li:last-child {
+    border: 0;
 }
 
 #smallarticles article{
@@ -59,10 +80,12 @@ blockquote {
     background-image: url("../images/citation.jpg");
     background-size: contain;
 }
-button {
+
+.btn-default {
     background-color: #ff3d00;
-    border-radius: 20%;
+    color: white;
 }
+
 footer {
     background-image: url("../images/bas-de-page.png");
     background-size: cover;
@@ -75,7 +98,20 @@ h1 {
 
 h2 {
     font-size: 2em;
+}
+main h3 {
     color: #FF3002;
+
+}
+h1,
+h2,
+h3,
+nav ul li {
+    text-transform: uppercase;
+}
+
+#firstsection article h3, #smallarticles article h3 {
+    text-transform: capitalize;
 }
 
 p {
@@ -86,5 +122,4 @@ p {
 div h3 {
     box-sizing: border-box;
     margin-top: 0;
-
 }
