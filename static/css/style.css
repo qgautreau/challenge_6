@@ -31,12 +31,15 @@ nav ul li {
     color: white;
 
 }
+#firstsection article {
+    padding-top: 2em 0;
+}
 
 #photosarticle img {
     display: inline-block;
     width: 28%;
     margin: 0.2em;
-    }
+}
 
 /*Sidebars*/
 #sidebar1 article {
@@ -48,6 +51,10 @@ nav ul li {
 #sidebar1 article:last-child {
     border: 0;
 }
+#sidebar2 h3 {
+    text-align: center;
+}
+
 #sidebar2 ul li {
     list-style: url("../images/fleche.png");
     border-bottom: 1px solid lightgrey;
@@ -66,8 +73,8 @@ nav ul li {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    margin: 1em 0;
-
+    margin-top: 3em;
+    margin-bottom: 6em;
 }
 
 
@@ -109,9 +116,12 @@ h3,
 nav ul li {
     text-transform: uppercase;
 }
-
+main {
+    padding-bottom: 5em;
+}
 #firstsection article h3, #smallarticles article h3 {
     text-transform: capitalize;
+    padding-top: 3em;
 }
 
 p {
