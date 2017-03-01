@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     background-image: url("../images/fond.png");
 }
@@ -35,14 +38,17 @@ nav ul li {
     list-style: url("../images/fleche.png");
 }
 
-#smallarticle article {
+#smallarticles article{
+    background-image: url("../images/fond-article.png");
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1em 0;
+
 }
 
-#smallarticles article img {
-    float: left;
-}
 
 #lastsection {
     background-image: url("../images/footer.png");
@@ -75,4 +81,10 @@ h2 {
 p {
     font-size: 1em;
     color: #525252;
+}
+
+div h3 {
+    box-sizing: border-box;
+    margin-top: 0;
+
 }
